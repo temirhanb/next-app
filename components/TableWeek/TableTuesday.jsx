@@ -15,6 +15,8 @@ export function TableTuesday() {
                     color={'#52AD5B;'}
                     width={'67px'}
                     name={'Тельнова Злата'}
+                    borderHeight={'70px'}
+                    borderBottom={'0'}
                     border={'none'}
                 />
                 <TableCardFreedomTime
@@ -43,6 +45,8 @@ export function TableTuesday() {
                     color={'#52AD5B;'}
                     width={'67px'}
                     name={'Ксения Аксерова, 9 лет'}
+                    borderHeight={'70px'}
+                    borderBottom={'5px'}
                     border={'none'}
                     last
                 />

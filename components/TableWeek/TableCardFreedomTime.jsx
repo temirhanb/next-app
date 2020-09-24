@@ -1,7 +1,7 @@
 import React from "react";
 import {TableCardBorder, TableCardColumn, TableCardFreedom} from "../../styled/tableCard";
 
-export function TableCardFreedomTime({first,last,border, color, position, positionLeft, width, bottom}) {
+export function TableCardFreedomTime({height,first,last,border, color, position, positionLeft, width, bottom}) {
     return (
         <TableCardColumn
             border={border}
@@ -9,6 +9,7 @@ export function TableCardFreedomTime({first,last,border, color, position, positi
             <TableCardBorder
                 color={color}
                 position={position}
+                height={height}
                 bottom={bottom}
                 first={first}
                 last={last}

@@ -25,6 +25,7 @@ export function TableFriday() {
                     position={'0'}
                     width={'68px'}
                     border={'none'}
+                    height={'26px'}
                     positionLeft={'0'}
                 />
             </TableCardColumn>
@@ -40,6 +41,8 @@ export function TableFriday() {
                     color={'#2E71F3'}
                     width={'67px'}
                     name={'Тельнова Злата'}
+                    borderHeight={'71px'}
+                    borderBottom={'0'}
                     border={'none'}
                     last
                 />
@@ -85,6 +88,7 @@ export function TableFriday() {
                 <TableCardFreedomTime
                     color={'#2E71F3'}
                     position={'0'}
+                    height={'26px'}
                     width={'68px'}
                     border={'none'}
                     positionLeft={'0'}
@@ -103,6 +107,8 @@ export function TableFriday() {
                     color={'#2E71F3'}
                     width={'67px'}
                     name={'Ксения Аксерова, 9 лет'}
+                    borderHeight={'71px'}
+                    borderBottom={'0'}
                     border={'none'}
                     last
                 />

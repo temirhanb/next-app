@@ -4,21 +4,24 @@ import {TableCardFreedomTime} from "./TableCardFreedomTime";
 import React from "react";
 import {LastColumn} from "../../utiles/lastColumn";
 
-export function TableThusday() {
+export function TableThursday() {
     return (
         <TableCardRow
-        active
+            active
         >
             <TableCardColumn>
                 <TableCardUserComponent
                     color={'#FE8900;'}
                     width={'42px'}
                     name={'Тельнова Злата'}
+                    borderHeight={'70px'}
+                    borderBottom={'0'}
                     border={'none'}
                 />
                 <TableCardFreedomTime
                     color={'#00459B;'}
                     position={'0'}
+                    first
                     width={'45px'}
                     positionLeft={'0'}
                     border={'none'}
@@ -27,6 +30,8 @@ export function TableThusday() {
                     color={'#DF1B7D;'}
                     width={'42px'}
                     name={'Тельнова Злата'}
+                    borderHeight={'76px'}
+                    borderBottom={'0'}
                     border={'none'}
                 />
             </TableCardColumn>
@@ -47,6 +52,8 @@ export function TableThusday() {
                     color={'#FE8900;'}
                     width={'42px'}
                     name={'Тельнова Злата'}
+                    borderHeight={'74px'}
+                    borderBottom={'5px'}
                     border={'none'}
                     last
                 />
@@ -98,6 +105,8 @@ export function TableThusday() {
                     color={'#00459B;'}
                     width={'42px'}
                     name={'Тельнова Злата'}
+                    borderBottom={'6px'}
+                    borderHeight={'71px'}
                     border={'none'}
                     last
                 />
@@ -226,6 +235,8 @@ export function TableThusday() {
                     width={'45px'}
                     border={'none'}
                     positionLeft={'0'}
+                    height={'28px'}
+                    bottom={'1px'}
                 />
                 <TableCardFreedomTime
                     position={'0'}
@@ -239,6 +250,8 @@ export function TableThusday() {
                     width={'45px'}
                     border={'none'}
                     positionLeft={'0'}
+                    height={'28px'}
+                    bottom={'1px'}
                 />
             </TableCardColumn>
             <TableCardColumn>
@@ -247,6 +260,8 @@ export function TableThusday() {
                     width={'42px'}
                     name={'Эрик 6 лет'}
                     border={'none'}
+                    borderHeight={'71px'}
+                    borderBottom={'1px'}
                 />
                 <TableCardFreedomTime
                     position={'0'}
@@ -258,6 +273,8 @@ export function TableThusday() {
                     color={'#DF1B7D;'}
                     width={'42px'}
                     name={'Эрик 6 лет'}
+                    borderHeight={'71px'}
+                    borderBottom={'1px'}
                     border={'none'}
                 />
             </TableCardColumn>

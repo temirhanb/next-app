@@ -55,7 +55,7 @@ export const TableCardBorder = styled.div`
     position:relative;
     left: ${({position}) => position ? `${position}` : "0"};
     bottom: ${({bottom}) => bottom ? `${bottom}` : "1px"};
-    height:25px;
+    height: ${({height}) => height ? `${height}` : '25px'};
     margin-left:2px;
     border-radius:${({last}) => last ? `0 0 6px 6px` : "none"};
     border-radius:${({first}) => first ? `6px 6px 0 0` : "none"};
@@ -66,8 +66,8 @@ export const TableCardBorderUser = styled.div`
     width:4px;
     position:relative;
     left: ${({position}) => position ? `${position}` : "0"};
-    bottom: ${({last}) => last ? `5px` : "0"};
-    height: ${({long}) => long ? "70px" : "23px"};
+    bottom: ${({borderBottom}) => borderBottom ? `${borderBottom}` : "0"};
+    height: ${({borderHeight}) => borderHeight ? `${borderHeight}` : "23px"};
     padding-bottom:${({last}) => last ? "5px" : "0"};
     margin-left:2px;
     background:${({color}) => color ? `${color}` : "none"};

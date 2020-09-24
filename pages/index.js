@@ -10,9 +10,9 @@ import {TableMonday} from "../components/TableWeek/TableMonday";
 import {TableTuesday} from "../components/TableWeek/TableTuesday";
 import {timeLine} from "../utiles/time";
 import {TableWednesday} from "../components/TableWeek/TableWednesday";
-import {TableThusday} from "../components/TableWeek/TableThursday";
+import {TableThursday} from "../components/TableWeek/TableThursday";
 import {TableFriday} from "../components/TableWeek/TableFriday";
-import {TableSaturday, TableWeekend} from "../components/TableWeek/TableWeekend";
+import {TableWeekend} from "../components/TableWeek/TableWeekend";
 
 export const Content = styled.div`
     display:flex;
@@ -218,7 +218,7 @@ export default function Home() {
                                 <TableMonday/>
                                 <TableTuesday/>
                                 <TableWednesday/>
-                                <TableThusday/>
+                                <TableThursday/>
                                 <TableFriday/>
                                 <TableWeekend/>
                                 <TableWeekend/>

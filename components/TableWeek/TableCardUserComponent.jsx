@@ -1,7 +1,7 @@
 import {TableCardBorderUser, TableCardCell, TableCardColumn, TableCardSpan, TableCardUser} from "../../styled/tableCard";
 import React from "react";
 
-export function TableCardUserComponent({border,last, name, width, color}) {
+export function TableCardUserComponent({borderBottom,borderHeight,border,last, name, width, color}) {
     return (
         <TableCardColumn
             border={border}
@@ -9,6 +9,8 @@ export function TableCardUserComponent({border,last, name, width, color}) {
             <TableCardBorderUser
                 color={color}
                 last={last}
+                borderHeight={borderHeight}
+                borderBottom={borderBottom}
                 long
             >
             </TableCardBorderUser>

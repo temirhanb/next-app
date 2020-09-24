@@ -10,7 +10,9 @@ export function TableMonday() {
             <TableCardUserComponent
                 color={'#DF1B7D;'}
                 width={'143px'}
-                name={'Тельнова Злата'}/>
+                name={'Тельнова Злата'}
+                borderHeight={'70px'}
+            />
             <TableCardFreedomTime
                 color={'#DF1B7D;'}
             />
@@ -26,11 +28,14 @@ export function TableMonday() {
             />
             <TableCardFreedomTime
                 color={'#DF1B7D;'}
+                height={'29px'}
+                bottom={'2px'}
             />
             <TableCardUserComponent
                 color={'#DF1B7D;'}
                 width={'143px'}
                 name={'Ксюша Диденко 7 лет'}
+                borderHeight={'71px'}
             />
             <TableCardFreedomTime
                 color={'#DF1B7D;'}
@@ -46,12 +51,15 @@ export function TableMonday() {
             />
             <TableCardFreedomTime
                 color={'#DF1B7D;'}
+                bottom={'2px'}
+                height={'29px'}
             />
 
             <TableCardUserComponent
                 color={'#DF1B7D;'}
                 width={'143px'}
                 name={'Эрик 6 лет'}
+                borderHeight={'70px'}
             />
             <TableCardFreedomTime
                 color={'#DF1B7D;'}
