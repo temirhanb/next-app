@@ -1,6 +1,4 @@
 import React from 'react';
-import styled from "styled-components";
-import Link from "next/link";
 import LeftBar from "../components/LeftBar";
 import HeaderComponent from "../components/Header";
 import ButtonsComponent from "../components/Buttons";
@@ -13,129 +11,20 @@ import {TableWednesday} from "../components/TableWeek/TableWednesday";
 import {TableThursday} from "../components/TableWeek/TableThursday";
 import {TableFriday} from "../components/TableWeek/TableFriday";
 import {TableWeekend} from "../components/TableWeek/TableWeekend";
+import {
+    Calendar,
+    ColumnTime,
+    ColumnTimeLi,
+    ColumnTimeUl,
+    Content,
+    Main,
+    Table,
+    TimeIcon,
+    TimeTable,
+} from "../styled/styledMain";
+import {Legend} from "../components/Legend";
+import {DataComponent} from "../components/Data";
 
-export const Content = styled.div`
-    display:flex;
-    width:1440px;
-    height:900px;
-    background-color:#EDF0F5;
-    `
-
-export const Main = styled.div`
-        height:900px;
-        width:1230px;
-    `
-
-export const Calendar = styled.div`
-        margin:20px 30px 0 30px;
-        background:#fff;
-        width:1170px;
-        height:735px;
-        border-radius:4px;
-    `
-
-export const Data = styled.div`
-    display flex;
-    justify-content: flex-end;
-    padding: 20px 20px 0 0;
-    font-size: 18px;
-    line-height: 26px;
-`
-
-export const Toggle = styled.span`
-    padding-left:368px;
-`
-
-export const ToggleLink = styled.a`
-    color:#979797;
-    text-decoration:underline;
-    height: 16px;
-`
-
-export const LegendUl = styled.ul`
-    padding:0;
-    margin:0;
-    display:flex;
-    justify-content: center;
-    padding-top:20px;
-`
-export const LegendLi = styled.li`
-    list-style-type: none;
-    display:flex;
-    align-items:center;
-    font-size: 11px;
-    line-height: 16px;
-   `
-export const LegendCircle = styled.div`
-    width:11px;
-    height:11px;
-    border-radius:50%;
-    margin-right:5px;
-    margin-left:15px;
-    background-color: ${({point}) => point ? `${point}` : "#fff"};
-`
-
-export const legendUser = [
-    {
-        name: 'Высоцкая Элеонора',
-        point: '#DF1B7D;'
-    }, {
-        name: 'Гайсина Гузель',
-        point: '#52AD5B;'
-    }, {
-        name: 'Гиголо Анна',
-        point: '#FE8900;'
-    }, {
-        name: 'Горбукова Юлия',
-        point: '#00459B;'
-    }, {
-        name: 'Марков Руслан',
-        point: '#2E71F3;'
-    },
-
-]
-
-export const TimeTable = styled.div`
-    margin: 20px 20px 0 20px;
-    border-top:1px solid rgba(0, 0, 0, 0.1);
-    display:flex;
-`
-
-export const ColumnTime = styled.div`
-    width:48px;
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
-    margin:0;
-`
-
-export const ColumnTimeUl = styled.ul`
-    padding:0;
-    margin:0;
-`
-
-export const ColumnTimeLi = styled.li`
-    list-style-type: none;
-    padding-bottom:31px;
-    font-size: 12px;
-    line-height: 17px;
-    color: rgba(0, 0, 0, 0.5);
-        &:nth-child(12n) {
-            padding-bottom:23px;
-        } 
-        &:last-child {
-            padding:0;
-        }
-`
-
-export const TimeIcon = styled.div`
-    padding:15px 23px 16px 9px;
-    width:16px;
-    height:16px;
-`
-
-export const Table = styled.div`
-    display:flex;
-    flex-direction: column;
-`
 
 export default function Home() {
 
@@ -146,51 +35,8 @@ export default function Home() {
                 <HeaderComponent/>
                 <ButtonsComponent/>
                 <Calendar>
-                    <Data>
-                        <span>
-                        27 июля – 2 августа 2020 г.
-                        </span>
-                        <Toggle>
-                            <Link href='/'>
-                                <ToggleLink>
-                                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd" clipRule="evenodd"
-                                              d="M7.29986 13C7.12067 13 6.94148 12.9347 6.80498 12.8047L1.20526 7.47141C0.931578 7.21075 0.931578 6.78942 1.20526 6.52876L6.80498 1.1955C7.07867 0.934834 7.52105 0.934834 7.79473 1.1955C8.06842 1.45616 8.06842 1.87749 7.79473 2.13815L2.68989 7.00008L7.79473 11.862C8.06842 12.1227 8.06842 12.544 7.79473 12.8047C7.65824 12.9347 7.47905 13 7.29986 13Z"
-                                              fill="black"/>
-                                        <path
-                                            d="M7.29986 13C7.12067 13 6.94148 12.9347 6.80498 12.8047L1.20526 7.47141C0.931578 7.21075 0.931578 6.78942 1.20526 6.52876L6.80498 1.1955C7.07867 0.934834 7.52105 0.934834 7.79473 1.1955C8.06842 1.45616 8.06842 1.87749 7.79473 2.13815L2.68989 7.00008L7.79473 11.862C8.06842 12.1227 8.06842 12.544 7.79473 12.8047C7.65824 12.9347 7.47905 13 7.29986 13"
-                                            stroke="black" strokeWidth="0.25"/>
-                                    </svg>
-                                    сегодня
-                                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none"
-                                         xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            fillRule="evenodd" clipRule="evenodd"
-                                            d="M1.70014 13C1.87933 13 2.05852 12.9347 2.19502 12.8047L7.79474 7.47141C8.06842 7.21075 8.06842 6.78942 7.79474 6.52876L2.19502 1.1955C1.92133 0.934834 1.47895 0.934834 1.20527 1.1955C0.931579 1.45616 0.931579 1.87749 1.20527 2.13815L6.31011 7.00008L1.20527 11.862C0.931579 12.1227 0.931579 12.544 1.20527 12.8047C1.34176 12.9347 1.52095 13 1.70014 13Z"
-                                            fill="black"/>
-                                        <path
-                                            d="M1.70014 13C1.87933 13 2.05852 12.9347 2.19502 12.8047L7.79474 7.47141C8.06842 7.21075 8.06842 6.78942 7.79474 6.52876L2.19502 1.1955C1.92133 0.934834 1.47895 0.934834 1.20527 1.1955C0.931579 1.45616 0.931579 1.87749 1.20527 2.13815L6.31011 7.00008L1.20527 11.862C0.931579 12.1227 0.931579 12.544 1.20527 12.8047C1.34176 12.9347 1.52095 13 1.70014 13"
-                                            stroke="black" strokeWidth="0.25"/>
-                                    </svg>
-
-                                </ToggleLink>
-                            </Link>
-                        </Toggle>
-                    </Data>
-                    <LegendUl>
-                        {legendUser.map(({name, point}, index) => (
-
-                            <LegendLi
-                                key={index + name}
-                            >
-                                <LegendCircle
-                                    point={point}>
-                                </LegendCircle>
-                                {name}
-                            </LegendLi>
-                        ))}
-                    </LegendUl>
+                    <DataComponent/>
+                    <Legend/>
                     <TimeTable>
                         <ColumnTime>
                             <TimeIcon>

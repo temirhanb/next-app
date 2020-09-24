@@ -286,8 +286,12 @@ export function TableThursday() {
             <TableCardFreedomTime/>
             <TableCardFreedomTime/>
             <TableCardFreedomTime/>
-            <TableCardFreedomTime/>
-            <TableCardFreedomTime/>
+            <LastColumn
+                height={'20px'}
+            />
+            <LastColumn
+                height={'20px'}
+            />
             <LastColumn/>
         </TableCardRow>
     )

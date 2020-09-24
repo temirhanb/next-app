@@ -59,14 +59,12 @@ export function TableMonday() {
                 color={'#DF1B7D;'}
                 width={'143px'}
                 name={'Эрик 6 лет'}
-                borderHeight={'70px'}
+                borderHeight={'71px'}
             />
             <TableCardFreedomTime
                 color={'#DF1B7D;'}
             />
-            <TableCardFreedomTime
-                color={'#DF1B7D;'}
-            />
+
             <TableCardFreedomTime
                 color={'#DF1B7D;'}
             />
@@ -89,7 +87,12 @@ export function TableMonday() {
                 color={'#DF1B7D;'}
                 last
             />
-            <TableCardFreedomTime/>
+            <LastColumn
+                height={'20px'}
+            />
+            <LastColumn
+                height={'20px'}
+            />
             <LastColumn/>
         </TableCardRow>
     )

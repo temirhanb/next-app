@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c90eb89-b367-45b1-81ed-66c6b0002762" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/Data.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Legend.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styled/styledMain.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/TableWeek/TableCardFreedomTime.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/TableWeek/TableCardFreedomTime.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/TableWeek/TableCardUserComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/TableWeek/TableCardUserComponent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/TableWeek/TableFriday.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/TableWeek/TableFriday.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/TableWeek/TableMonday.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/TableWeek/TableMonday.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/TableWeek/TableThursday.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/TableWeek/TableThursday.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/TableWeek/TableTuesday.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/TableWeek/TableTuesday.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/TableWeek/TableWednesday.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/TableWeek/TableWednesday.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/TableWeek/TableWeekend.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/TableWeek/TableWeekend.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styled/tableCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/styled/tableCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styled/buttonStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/styled/buttonStyled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utiles/lastColumn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/utiles/lastColumn.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +73,7 @@
       <workItem from="1600759343232" duration="57793000" />
       <workItem from="1600893258949" duration="6609000" />
       <workItem from="1600929832386" duration="5368000" />
-      <workItem from="1600938421509" duration="2175000" />
+      <workItem from="1600938421509" duration="3902000" />
     </task>
     <task id="LOCAL-00001" summary="- initial app">
       <created>1600938545824</created>
@@ -78,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600938545824</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- Исправлены стили в календаря">
+      <created>1600940713620</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600940713620</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,25 +98,26 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="- initial app" />
-    <option name="LAST_COMMIT_MESSAGE" value="- initial app" />
+    <MESSAGE value="- Исправлены стили в календаря" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Исправлены стили в календаря" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600874833668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1600874833668" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1600938543690">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1600940713020">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600938543690" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600940713020" />
     <state x="318" y="141" key="EditFileWatcherDialog" timestamp="1600585344064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="318" y="141" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1600585344064" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1600938550239">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1600940715395">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600938550239" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600940715395" />
     <state x="339" y="157" key="run.anything.popup" timestamp="1600874505927">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

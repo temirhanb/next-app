@@ -28,9 +28,13 @@ export function TableWednesday() {
             <TableCardFreedomTime/>
             <TableCardFreedomTime/>
             <TableCardFreedomTime/>
-            <TableCardFreedomTime/>
-            <TableCardFreedomTime/>
-            <LastColumn/>
+                <LastColumn
+                    height={'20px'}
+                />
+                <LastColumn
+                    height={'20px'}
+                />
+                <LastColumn/>
         </TableCardRow>
     )
 }
