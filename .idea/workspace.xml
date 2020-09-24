@@ -1,9 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c90eb89-b367-45b1-81ed-66c6b0002762" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Buttons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/FreedomTime.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/LeftBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/LogoLeftBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/TableWeek/TableCardFreedomTime.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/TableWeek/TableCardUserComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/TableWeek/TableFriday.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/TableWeek/TableMonday.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/TableWeek/TableThursday.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/TableWeek/TableTuesday.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/TableWeek/TableWednesday.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/TableWeek/TableWeek.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/TableWeek/TableWeekend.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/аватарка пользователя.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styled/buttonStyled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styled/headerStyled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styled/leftBarStyled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styled/tableCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styled/tableWeekStyled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utiles/iconLeftBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utiles/lastColumn.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utiles/tableCartTimeLineUtile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utiles/time.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hjTuwF8oHnRkzRHtuuAkxiNgkn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Project\ideProject\next-project\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Project\ideProject\next-project\components\TableWeek" />
+      <recent name="C:\Project\ideProject\next-project\utiles" />
+      <recent name="C:\Project\ideProject\next-project\public" />
+      <recent name="C:\Project\ideProject\next-project\pages" />
+      <recent name="C:\Project\ideProject\next-project\styled" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c90eb89-b367-45b1-81ed-66c6b0002762" name="Default Changelist" comment="" />
+      <created>1600523727172</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600523727172</updated>
+      <workItem from="1600523730046" duration="1592000" />
+      <workItem from="1600539881191" duration="593000" />
+      <workItem from="1600581371045" duration="9040000" />
+      <workItem from="1600637653878" duration="20561000" />
+      <workItem from="1600703443519" duration="1163000" />
+      <workItem from="1600716320574" duration="595000" />
+      <workItem from="1600759343232" duration="57793000" />
+      <workItem from="1600893258949" duration="6609000" />
+      <workItem from="1600929832386" duration="5368000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600874833668">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1600874833668" />
+    <state x="318" y="141" key="EditFileWatcherDialog" timestamp="1600585344064">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="318" y="141" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1600585344064" />
+    <state x="339" y="157" key="run.anything.popup" timestamp="1600874505927">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1600874505927" />
   </component>
 </project>
